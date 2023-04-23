@@ -1,4 +1,4 @@
-import "../css/recommendations.css";
+import "@/css/recommendations.css";
 import Image from "next/image";
 
 export const Recommendations = () => {

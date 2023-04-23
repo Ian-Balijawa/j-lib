@@ -13,6 +13,7 @@ export default function Home() {
         <p style={{ color: "#989798" }}>Sunday,23 April</p>
         <RecommendationsHeader />
       </div>
+
       <CardContainer>
         {Array.from({ length: 15 }).map((card) => (
           <Card />

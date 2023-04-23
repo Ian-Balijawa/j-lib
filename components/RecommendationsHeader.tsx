@@ -1,4 +1,4 @@
-import "@/css/RecommendationsHeader.css";
+import s from "@/css/recommendationsHeader.module.css";
 import { Button } from "./Button";
 
 export const RecommendationsHeader = () => {
@@ -10,9 +10,7 @@ export const RecommendationsHeader = () => {
         alignItems: "center",
       }}
     >
-      <div>
-        <p>Latest Job Posts</p>
-      </div>
+      <p className={s.p}>Latest Job Posts</p>
       <div
         style={{
           display: "flex",
@@ -21,11 +19,11 @@ export const RecommendationsHeader = () => {
           width: "40%",
         }}
       >
-        <div className="see_all" />
+        <div className={s.see_al} />
         <div>
           <Button>Recommended For You</Button>
         </div>
-        <div className="see_all">
+        <div className={s.see_all}>
           <p>See all</p>
         </div>
       </div>

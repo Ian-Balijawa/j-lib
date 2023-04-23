@@ -11,13 +11,13 @@
 
 main {
   margin: 1rem auto;
-  max-width: 85%;
+  max-width: 80%;
 }
 
 button {
   outline: none;
   border: none;
-  padding: 0.8rem 2rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 5px;
   background: #0a3a29;
   color: white;
