@@ -1,0 +1,17 @@
+.container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.see_all p {
+  border: 1px solid grey;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+p {
+  font-weight: 600;
+}
