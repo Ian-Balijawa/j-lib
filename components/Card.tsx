@@ -18,7 +18,7 @@ export const Card = () => {
       <div className={s.card_header}>
         <Image src={"/logo.png"} alt="company-logo" width={80} height={80} />
         <div>
-          <p className={s.job_title}>Full Stack Engineer</p>
+          <p className={s.job_title}>Backend Developer</p>
           <div className={s.job_specifics}>
             {Array.from({ length: 5 }).map((el) => {
               return <p>FrontEnd</p>;

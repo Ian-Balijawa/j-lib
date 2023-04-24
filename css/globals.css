@@ -35,19 +35,10 @@ button:focus {
 img {
   object-fit: contain;
 }
-
-/* =============================== MEDIA QUERIES (MEDIUM DEVICES) ======================= */
-
-@media screen and (max-width: 1024px) {
-  main {
-    width: 90%;
-  }
-}
-
 /* =============================== MEDIA QUERIES (SMALL DEVICES) ======================= */
 
 @media screen and (max-width: 600px) {
   main {
-    width: 95%;
+    width: 100%;
   }
 }

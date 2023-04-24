@@ -23,21 +23,28 @@
   justify-content: space-between;
   align-items: flex-start;
   gap: 1rem;
+  border-radius: 5px;
+  padding: 0.5em;
 }
 
-.flex {
+.flex,
+.initials {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 0.5em;
+  background-color: #fffdff;
 }
 
 .icon {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 1em;
+  gap: 0.5em;
 }
 
-.p_body {
+.p_body,
+.card_body {
   background-color: #fffdff;
 }
 
@@ -80,6 +87,7 @@
 .tag {
   background: #f6f5f7;
   padding: 0.1em 0.3em;
+  border-radius: 5px;
 }
 .btnSecondary {
   background: transparent;

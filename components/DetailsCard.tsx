@@ -18,7 +18,7 @@ export const CardDetails = () => {
         <div className={s.flex}>
           <Image src={"/logo.png"} alt="company-logo" width={80} height={80} />
           <div>
-            <p className={s.job_title}>Full Stack Engineer</p>
+            <p className={s.job_title}>Backend Developer</p>
             <div className={s.job_specifics}>
               {Array.from({ length: 5 }).map((el) => {
                 return <p>FrontEnd</p>;
@@ -39,7 +39,11 @@ export const CardDetails = () => {
           velit harum, reprehenderit molestiae obcaecati quisquam! Voluptas
           doloremque voluptate accusantium natus ex nihil consectetur, illo unde
           earum excepturi debitis, perspiciatis labore autem. Similique, ut
-          voluptatibus.
+          voluptatibus.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Nobis eligendi placeat voluptates sapiente impedit. Distinctio
+          perferendis facilis id dolorem vitae doloribus odio consequuntur
+          laborum esse ipsum voluptatum magni quibusdam repudiandae facere eos
+          animi reiciendis amet nam quas reprehenderit, numquam libero.
         </p>
 
         <div className={s.job_tags}>

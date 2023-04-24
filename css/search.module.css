@@ -11,5 +11,8 @@
 .input {
   outline: none;
   border: none;
+  border-bottom: 1px solid gray;
+  margin-right: 3em;
+  padding: 0.5em;
   width: 100%;
 }
