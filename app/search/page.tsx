@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <div style={{ lineHeight: "5px" }}>
         <p style={{ fontSize: "1.5rem", fontWeight: "600" }}>
-          Let's Find your Dream Job
+          {"Let's Find your Dream Job"}
         </p>
         <p style={{ color: "#989798" }}>Sunday,23 April</p>
         <Searchbar />
