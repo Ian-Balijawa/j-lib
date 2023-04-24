@@ -17,8 +17,8 @@ export default function Home() {
       <div className="section">
         <Sidebar />
         <CardDetailsContainer>
-          {Array.from({ length: 15 }).map((card) => (
-            <CardDetails />
+          {Array.from({ length: 15 }).map((_, idx) => (
+            <CardDetails key={idx.toString()} />
           ))}
         </CardDetailsContainer>
       </div>

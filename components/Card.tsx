@@ -20,8 +20,8 @@ export const Card = () => {
         <div>
           <p className={s.job_title}>Backend Developer</p>
           <div className={s.job_specifics}>
-            {Array.from({ length: 5 }).map((el) => {
-              return <p>FrontEnd</p>;
+            {Array.from({ length: 5 }).map((_, idx) => {
+              return <p key={idx.toString()}>FrontEnd</p>;
             })}
           </div>
         </div>
@@ -36,9 +36,9 @@ export const Card = () => {
         </p>
 
         <div className={s.job_tags}>
-          {Array.from({ length: 3 }).map(() => {
+          {Array.from({ length: 3 }).map((_, idx) => {
             return (
-              <div className={s.tag}>
+              <div key={idx.toString()} className={s.tag}>
                 <Image
                   className={s.img}
                   src="/logo.png"

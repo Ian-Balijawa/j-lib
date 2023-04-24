@@ -15,8 +15,8 @@ export default function Home() {
       </div>
 
       <CardContainer>
-        {Array.from({ length: 15 }).map((card) => (
-          <Card />
+        {Array.from({ length: 15 }).map((_, idx) => (
+          <Card key={idx.toString()} />
         ))}
       </CardContainer>
     </>

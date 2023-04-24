@@ -12,9 +12,9 @@ export const Sidebar = () => {
         <button className={s.btn}>Create Job Alert</button>
       </div>
       <div className={s.check_container}>
-        {Array.from({ length: 10 }).map(() => {
+        {Array.from({ length: 10 }).map((_, idx) => {
           return (
-            <div className={s.check}>
+            <div key={idx.toString()} className={s.check}>
               <input
                 className={s.input}
                 type="checkbox"

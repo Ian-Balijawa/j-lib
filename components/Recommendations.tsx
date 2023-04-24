@@ -4,8 +4,8 @@ import Image from "next/image";
 export const Recommendations = () => {
   return (
     <div className="rec_container">
-      {Array.from({ length: 30 }).map((card) => (
-        <Pill />
+      {Array.from({ length: 30 }).map((_, idx) => (
+        <Pill key={idx.toString()} />
       ))}
     </div>
   );

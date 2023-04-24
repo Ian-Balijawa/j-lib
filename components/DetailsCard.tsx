@@ -20,8 +20,8 @@ export const CardDetails = () => {
           <div>
             <p className={s.job_title}>Backend Developer</p>
             <div className={s.job_specifics}>
-              {Array.from({ length: 5 }).map((el) => {
-                return <p>FrontEnd</p>;
+              {Array.from({ length: 5 }).map((_, idx) => {
+                return <p key={idx.toString()}>FrontEnd</p>;
               })}
             </div>
           </div>
@@ -47,8 +47,12 @@ export const CardDetails = () => {
         </p>
 
         <div className={s.job_tags}>
-          {Array.from({ length: 3 }).map(() => {
-            return <p className={s.tag}>Full-Time</p>;
+          {Array.from({ length: 3 }).map((_, idx) => {
+            return (
+              <p key={idx.toString()} className={s.tag}>
+                Full-Time
+              </p>
+            );
           })}
         </div>
       </div>
